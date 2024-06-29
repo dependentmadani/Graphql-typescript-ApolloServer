@@ -6,6 +6,6 @@ export class ListingAPI extends RESTDataSource {
     baseURL = process.env.BASEURL;
 
     getFeaturedListings() {
-        return this.get<Listing[]>("feature-listings")
+        return this.get<Listing[]>("featured-listings")
     }
 }

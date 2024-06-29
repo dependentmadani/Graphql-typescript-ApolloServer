@@ -3,7 +3,7 @@ type Listing {
     "the id of each each listing object"
     id: ID!
     "The listing's title"
-    name: String!
+    title: String!
     "The number of beds available"
     numOfBeds: Int
     "The cost per night"
